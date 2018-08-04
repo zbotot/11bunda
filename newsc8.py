@@ -11,7 +11,7 @@ from googletrans import Translator
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit, subprocess
 
-ririn  = LINE("EvS9lttNDwMWjDZE9vSd.NWNpYXFqn/ktA3uB2DqoRq.q165sQJHWcgV9tnpYp0JNVGeU92LjwZGpyrKrYfgVl4=")
+ririn  = LINE("EuIAOJLEyhguazHHz5Ka.LWU3BKMvJZ2EMa46JMRdAG.Kh2+/xoxrso/aSyoIeILVej0kR+n6W8+HHjahNTuPZg=")
 #ririn = LINE("")
 ririnMid = ririn.profile.mid
 ririnProfile = ririn.getProfile()
@@ -412,7 +412,7 @@ def helpmessage():
                     "╠❂➣ " + key + "ᴄʜᴀɴɢᴇᴘɪᴄᴛᴜʀᴇᴘʀᴏғɪʟᴇ" + "\n" + \
                     "╠❂➣ " + key + "ɢʀᴏᴜᴘʟɪsᴛ" + "\n" + \
                     "╠════════════════════╗" + "\n" + \
-                    "               ᴄʀᴇᴅɪᴛs ʙʏ : ©ᴅ̶ᴇ̶ᴇ̶ ✯" + "\n" + \
+                    "               ᴄʀᴇᴅɪᴛs ʙʏ : ©che ✯" + "\n" + \
                     "╚════════════════════╝" + "\n" + \
                     "╔════════════════════╗" + "\n" + \
                     "                   ✰ sᴇᴘʀɪ ʙᴏᴛ  ✰" + "\n" + \
@@ -482,7 +482,7 @@ def helptexttospeech():
                         "╠❂➣ " + key + "ᴠɪ : ᴠɪᴇᴛɴᴀᴍᴇsᴇ" + "\n" + \
                         "╠❂➣ " + key + "ᴄʏ : ᴡᴇʟsʜ" + "\n" + \
                         "╠════════════════════╗" + "\n" + \
-                        "               ᴄʀᴇᴅɪᴛs ʙʏ : ©ᴅ̶ᴇ̶ᴇ̶ ✯" + "\n" + \
+                        "               ᴄʀᴇᴅɪᴛs ʙʏ : ©che ✯" + "\n" + \
                         "╚════════════════════╝" + "\n" + \
                         "╔════════════════════╗" + "\n" + \
                         "                    ✰ sᴇᴘʀɪ ʙᴏᴛ ✰" + "\n" + \
@@ -608,7 +608,7 @@ def helptranslate():
                         "╠❂➣ " + key + "ғɪʟ : ғɪʟɪᴘɪɴᴏ" + "\n" + \
                         "╠❂➣ " + key + "ʜᴇ : ʜᴇʙʀᴇᴡ" + "\n" + \
                         "╠════════════════════╗" + "\n" + \
-                        "              ᴄʀᴇᴅɪᴛs ʙʏ : ©ᴅ̶ᴇ̶ᴇ̶ ✯" + "\n" + \
+                        "              ᴄʀᴇᴅɪᴛs ʙʏ : ©che ✯" + "\n" + \
                         "╚════════════════════╝" + "\n" + \
                         "╔════════════════════╗" + "\n" + \
                         "                    ✰ sᴇᴘʀɪ ʙᴏᴛ ✰" + "\n" + \
@@ -626,7 +626,7 @@ def ririnBot(op):
             print ("[ 5 ] Add Contact")
             if wait["autoAdd"] == True:
                 ririn.findAndAddContactsByMid(op.param1)
-            ririn.sendMessage(to, "Halo, ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅ ᴍᴇ \nsᴇᴘʀɪ ʙᴏᴛ \nᴏᴘᴇɴ ᴏʀᴅᴇʀ sᴇʟғʙᴏᴛ ᴏɴʟʏ\nsᴇʟғʙᴏᴛ + ᴀssɪsᴛ\nʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\nᴀʟʟ ʙᴏᴛ ᴘʏᴛʜᴏɴ з \nᴍɪɴᴀᴛ ᴘᴄ ᴀᴋᴜɴ ᴅɪ ʙᴀᴡᴀʜ \nᴄʀᴇᴀᴛᴏʀ line.me/ti/p/ppgIZ0JLDW")
+            ririn.sendMessage(to, "Halo, ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅ ᴍᴇ \nsᴇᴘʀɪ ʙᴏᴛ \nᴏᴘᴇɴ ᴏʀᴅᴇʀ sᴇʟғʙᴏᴛ ᴏɴʟʏ\nsᴇʟғʙᴏᴛ + ᴀssɪsᴛ\nʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\nᴀʟʟ ʙᴏᴛ ᴘʏᴛʜᴏɴ з \nᴍɪɴᴀᴛ ᴘᴄ ᴀᴋᴜɴ ᴅɪ ʙᴀᴡᴀʜ \nᴄʀᴇᴀᴛᴏʀ line.me/ti/p/sepriche \n atau pc aja teambot kami ~BUNDA~")
 
         if op.type == 13:
             print ("[ 13 ] Invite Into Group")
@@ -649,7 +649,7 @@ def ririnBot(op):
         if op.type == 17:
         	dan = ririn.getContact(op.param2)
         	tgb = ririn.getGroup(op.param1)
-        	sendMention(op.param1, "ʜᴏʟᴀ @!         ,\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ {} \nᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴄʜᴇᴄᴋ ɴᴏᴛᴇ ʏᴀ \nsᴀʟᴋᴇɴ ʙʏ. sᴇᴘʀɪ".format(str(tgb.name)),[op.param2])
+        	sendMention(op.param1, "ʜᴏʟᴀ @!         ,\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ {} \nᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴄʜᴇᴄᴋ ɴᴏᴛᴇ ʏᴀ \nsᴀʟᴋᴇɴ ".format(str(tgb.name)),[op.param2])
         	ririn.sendContact(op.param1, op.param2)
         	ririn.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net{}".format(dan.picturePath))
 
@@ -1086,7 +1086,7 @@ def ririnBot(op):
                                     if to not in wait["changeGroupPicture"]:
                                         wait["changeGroupPicture"].append(to)
                                     ririn.sendMessage(to, "sᴇɴᴅ ᴘɪᴄᴛᴜʀᴇ")
-                            elif cmd == 'tagall':
+                            elif cmd == 'muach':
                                 group = ririn.getGroup(msg.to)
                                 nama = [contact.mid for contact in group.members]
                                 k = len(nama)//19
